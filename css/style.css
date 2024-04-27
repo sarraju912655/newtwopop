@@ -1,0 +1,713 @@
+.main {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+ background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ), url(../img/supportmicrosoft2.png) no-repeat top center fixed;
+  background-size: cover;
+  overflow: hidden; 
+}
+
+.main{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.banner{
+	display: none;
+}
+
+.main .banner.chat{
+	/*display: inline-block;*/
+	background: #fff;
+    width: 220px;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: fixed;
+    z-index: 5;
+    bottom: 35px;
+    right: 35px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.56); 
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.6);
+}
+
+
+
+
+
+
+
+.main .banner.chat img{
+	display: block;
+    margin: 0 auto;
+}
+
+.main .banner.chat span{
+	
+	display: block;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	color: #000000;
+}
+
+.main .banner.chat span.banner_chat_label{
+	
+	display: block;
+	font-style: normal;
+    font-size: 12px;
+    line-height: 15px;
+	color: #242424;
+	padding-top: 12px;
+    padding-bottom: 13px;
+}
+
+
+.btn{
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    border-spacing: 0;
+    color: #26589F;
+    font-family: 'PT Sans Narrow',sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.42rem;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;	
+}
+
+
+
+
+
+.main .banner.banner1{
+    width: 900px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px 5px rgb(0 0 0 / 35%);
+    border-radius: 8px;
+    position: fixed;
+    left: 50%;
+    top: 189px;
+    transform: translate(-50%, 0);
+    z-index: 2;
+}
+
+
+.main-btn .skip{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: 52px;
+    top: -52px;
+    background: #fff;
+    display: inline-block;
+}
+
+.main-btn .skip img{
+    width: 14px;
+    height: 2px;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+.main-btn .close{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    top: -52px;
+    background: #5A9FFF;
+    display: inline-block;
+}
+
+.main-btn .close img{
+    width: 16px;
+    height: 16px;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+
+
+.main .banner.banner1 .wrapper-header{
+    height: 68px;
+    display: flex;
+    align-items: center;
+    background: #F1511B;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.main .banner.banner1 .wrapper-header span{
+    margin-left: 66px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+
+}
+
+
+
+.main .banner.banner1 .wrapper-header::before{
+	content: "";
+	width: 28px;
+	height: 28px;
+	background: url(../img/microsoft-bg.png);
+	position: absolute;
+	left: 30px;
+}
+
+
+
+.main .banner.banner1 .wrapper-main{
+    margin-top: 55px;
+    margin-bottom: 55px;
+    display: flex;
+    justify-content: center;	
+}
+
+.main .banner.banner1 .wrapper-main-img {
+	      margin-right: 32px;
+}
+
+
+.main .banner.banner1 .wrapper-main-detail-title{
+	display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 18px;
+    color: #5A9FFF;
+    padding-top: 5px;
+    margin-bottom: 12px;
+}
+
+.main .banner.banner1 .wrapper-main-detail label{
+    display: block;
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #242424;
+}
+
+
+.main .banner.banner1 .wrapper-main-detail label span{
+    color: #5A9FFF;
+    margin-left: 12px;
+}
+
+.main .banner.banner1 .wrapper-main-detail label span.sf-main-color{
+     color: #F1511B;
+}
+
+.main .banner.banner1 .wrapper-selection {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+
+
+.main .banner.banner1 .wrapper-selection .item{
+	border-bottom: 1px solid #EBEBEB;
+	border-top: 1px solid #EBEBEB;
+	border-left: 0.5px solid #EBEBEB;
+	border-right: : 0.5px solid #EBEBEB;
+    width: 25%;
+    text-align: center;
+    background: #F6F6F6;
+}
+
+.main .banner.banner1 .wrapper-selection .item label{
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    color: #8A8A8A;
+    margin-top: 25px;
+}
+
+.main .banner.banner1 .wrapper-selection .item img{
+    margin: 0 auto;
+    margin: 25px auto;
+}
+
+.main .banner.banner1 .wrapper-selection .item span{
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 25px;
+    color: #8A8A8A;
+}
+
+.main .banner.banner1 .wrapper-selection .item.active{
+	background: #F1511B;
+    border-radius: 0px;
+    border-bottom: 1px solid #F1511B;
+	border-top: 1px solid #F1511B;
+	border-left: 0.5px solid #F1511B;
+	border-right: : 0.5px solid #F1511B;
+	position: relative;
+}
+
+
+.main .banner.banner1 .wrapper-selection .item.active:after {
+    position: absolute;
+    top: -10px;
+    right: 45%;
+    display: inline-block;
+    border-right: 15px solid transparent;
+    border-bottom: 12px solid #F1511B;
+    border-left: 15px solid transparent;
+    content: '';
+}
+
+
+.main .banner.banner1 .wrapper-selection .item.active label,
+.main .banner.banner1 .wrapper-selection .item.active span{
+  color: #fff;
+}
+
+
+
+
+.main .banner.banner1 .wrapper-footer{
+	padding-left: 30px;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    display: inline-block;
+}
+
+
+.main .banner.banner1 .wrapper-footer label{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #242424;
+}
+
+.main .banner.banner1 .wrapper-footer label span{
+    margin-left: 12px;
+    color: #F1511B;
+}
+
+
+
+
+
+
+.main .banner.banner2{
+    width: 677px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px 5px rgb(0 0 0 / 35%);
+    border-radius: 8px;
+    position: fixed;
+    left: 50%;
+    top: 269px;
+    transform: translate(-50%, 0);
+    z-index: 3
+}
+
+
+.main .banner.banner2 .wrapper-header{ 
+    background: #5A9FFF;
+    border-radius: 8px 8px 0px 0px;
+    padding: 22px 30px;
+}
+
+.main .banner.banner2 .wrapper-header span{ 
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.main .banner.banner2 .wrapper-header label{ 
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #fff;
+}
+
+
+.main .banner.banner2  .wrapper-table{
+    margin: 20px 30px;
+    border: 1px solid #242424;
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+
+.main .banner.banner2 .wrapper-table-title{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #242424;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #242424;
+}
+
+.main .banner.banner2 .wrapper-table-item{
+    padding-top: 10px;
+}
+
+
+.main .banner.banner2 .wrapper-table-item span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #242424;
+}
+
+
+
+.main .banner.banner2 .wrapper-table-item span.wrapper-table-item-number{
+    float: right;
+}
+
+
+.main .banner.banner2 .wrapper-buttons{
+    padding: 0px 30px 20px 30px;
+    text-align: right;
+}
+
+.main .banner.banner2 .wrapper-buttons .btn{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    background: #5A9FFF;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 18px;
+}
+
+
+
+
+
+
+.main .banner.banner3{
+    width: 473px;
+    background: #F1511B;
+    box-shadow: 0px 0px 15px 5px rgb(0 0 0 / 35%);
+    border-radius: 8px;
+    position: fixed;
+    left: 50%;
+    top: 325px;
+    transform: translate(-50%, 0);
+    z-index: 4
+}
+
+
+
+.main .banner.banner3{
+    padding: 30px;
+}
+
+
+.main .banner.banner3 .wrapper-title{
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
+
+
+
+
+.main .banner.banner3 .wrapper-text span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+.main .banner.banner3 .wrapper-text ul li{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+
+.main .banner.banner3 .wrapper-text ul{
+     margin-bottom: 25px;
+}
+
+
+.main .banner.banner3 .wrapper-buttons{
+    text-align: right;
+    padding-top: 5px;
+}
+
+.main .banner.banner3 .wrapper-buttons .btn{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    background: transparent;
+    border:1px solid #ffffff;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 22px;
+}
+
+.main .banner.banner3 .wrapper-buttons .btn.btn-ok{
+   color: #5A9FFF;
+   background: #ffffff;
+}
+
+
+.main .banner.banner4{
+    width: 591px;
+    background: #ffffff;
+    box-shadow: 0px 0px 15px 5px rgb(0 0 0 / 35%);
+    border-radius: 8px;
+    position: fixed;
+    left: 50%;
+    top: 471px;
+    transform: translate(-50%, 0);
+    z-index: 5
+
+}
+
+
+.main .banner.banner4 .wrapper{
+    position: relative;
+}
+
+
+
+.main .banner.banner4 .wrapper-main{
+    margin-top: 85px;
+}
+
+
+.main .banner.banner4 .wrapper-main .wrapper-main-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #F1511B;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+
+
+
+.main .banner.banner4 .wrapper-main .wrapper-main-text{
+    margin: 20px 30px;
+  
+}
+
+
+.main .banner.banner4 .wrapper-main .wrapper-main-text label{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.main .banner.banner4 .wrapper-main .wrapper-main-text label.wrapper-main-text-alert{
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 18px;
+color: #242424;
+}
+
+.main .banner.banner4 .wrapper-main .wrapper-main-text label.wrapper-main-text-adress{
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+}
+
+.main .banner.banner4 .wrapper-main .wrapper-main-text label.wrapper-main-text-tel{
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+}
+
+
+
+
+.main .banner.banner4 .wrapper-footer{
+    background: #5A9FFF;
+    border-radius: 0px 0px 8px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 30px;  
+}
+
+
+.main .banner.banner4 .wrapper-footer span{
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #ffffff;
+    display: block;
+    margin-bo: 10px;
+    margin: 5px 0px;
+
+}
+
+.main .banner.banner4 .wrapper-footer .btn{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #5A9FFF;
+    background: #ffffff;
+    border:1px solid #ffffff;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 22px;
+}
+
+
+.main .banner.banner4 .wrapper-footer .btn.btn-right{
+    color: #ffffff;
+    background: #F1511B;
+    border:1px solid #F1511B;
+}
+
+.main .banner.banner4 .wrapper-icon{
+    padding: 37px;
+    border-radius: 50%;
+    background: #fff;
+    display: inline-block;
+    
+
+}
+.main .banner.banner4 .wrapper-icon-microsoft{
+position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: -138px;
+}
+
+
+@media screen and (max-width: 1500px) { 
+
+.main .banner.banner1 {
+    top: 89px;
+}
+
+.main .banner.banner2 {
+top: 169px;
+}
+.main .banner.banner3 {
+top: 210px;
+}
+
+.main .banner.banner4 {
+top: 258px;
+}
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  .main {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
